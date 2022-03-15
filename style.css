@@ -1,0 +1,24 @@
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+}
+
+.header-container {
+  border: 2px solid red;
+}
+
+.navbar-container {
+  border: 2px solid black;
+}
+
+.herotext-container {
+  display: flex;
+  border: 2px solid blue;
+}
+
+.herotext-1 {
+  border-right: 2px solid red;
+}
