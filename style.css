@@ -1,24 +1,31 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  font-size: 24px;
+  background-color: #1f2937;
+  color: white;
+}
+
+.header-links {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
 ul {
-  list-style-type: none;
+  list-style: none;
+  display: flex;
+  gap: 32px;
+  margin: 0;
+  padding: 0;
 }
 
 li {
   display: inline;
+  color: white;
 }
-
-.header-container {
-  border: 2px solid red;
-}
-
-.navbar-container {
-  border: 2px solid black;
-}
-
-.herotext-container {
-  display: flex;
-  border: 2px solid blue;
-}
-
-.herotext-1 {
-  border-right: 2px solid red;
+a {
+  text-decoration: none;
 }
