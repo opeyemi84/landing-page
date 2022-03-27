@@ -1,3 +1,9 @@
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
 .header {
   display: flex;
   justify-content: space-between;
@@ -103,3 +109,17 @@ p {
   font-size: 24px;
   font-weight: bold;
 } */
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  background-color: #e5e7eb;
+  height: 250px;
+  padding: 64px;
+  font-size: 36px;
+}
+
+.thor {
+  display: flex;
+  justify-content: right;
+}
